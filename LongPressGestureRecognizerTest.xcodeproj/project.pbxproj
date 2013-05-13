@@ -16,6 +16,8 @@
 		24CFF944174102F000EB124B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 24CFF943174102F000EB124B /* Default.png */; };
 		24CFF946174102F000EB124B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24CFF945174102F000EB124B /* Default@2x.png */; };
 		24CFF948174102F000EB124B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24CFF947174102F000EB124B /* Default-568h@2x.png */; };
+		24CFF9511741032C00EB124B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CFF94F1741032C00EB124B /* ViewController.m */; };
+		24CFF9521741032C00EB124B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24CFF9501741032C00EB124B /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,9 @@
 		24CFF943174102F000EB124B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		24CFF945174102F000EB124B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		24CFF947174102F000EB124B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		24CFF94E1741032C00EB124B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		24CFF94F1741032C00EB124B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		24CFF9501741032C00EB124B /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,9 @@
 				24CFF940174102F000EB124B /* AppDelegate.h */,
 				24CFF941174102F000EB124B /* AppDelegate.m */,
 				24CFF938174102F000EB124B /* Supporting Files */,
+				24CFF94E1741032C00EB124B /* ViewController.h */,
+				24CFF94F1741032C00EB124B /* ViewController.m */,
+				24CFF9501741032C00EB124B /* ViewController.xib */,
 			);
 			path = LongPressGestureRecognizerTest;
 			sourceTree = "<group>";
@@ -154,6 +162,7 @@
 				24CFF944174102F000EB124B /* Default.png in Resources */,
 				24CFF946174102F000EB124B /* Default@2x.png in Resources */,
 				24CFF948174102F000EB124B /* Default-568h@2x.png in Resources */,
+				24CFF9521741032C00EB124B /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +175,7 @@
 			files = (
 				24CFF93E174102F000EB124B /* main.m in Sources */,
 				24CFF942174102F000EB124B /* AppDelegate.m in Sources */,
+				24CFF9511741032C00EB124B /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
