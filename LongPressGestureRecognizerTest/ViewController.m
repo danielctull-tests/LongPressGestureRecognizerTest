@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-@interface ViewController () <UITextFieldDelegate>
+@interface ViewController () <UIGestureRecognizerDelegate, UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
@@ -25,6 +25,11 @@
 
 - (void)textFieldDidEndEditing:(UITextField *)textField {
 	textField.borderStyle = UITextBorderStyleRoundedRect;
+}
+
+- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer
+shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer {
+	return YES;
 }
 
 @end
