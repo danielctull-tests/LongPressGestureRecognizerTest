@@ -18,6 +18,8 @@
 - (IBAction)longPress:(id)sender {
 	NSLog(@"%@:%@", self, NSStringFromSelector(_cmd));
 	self.textField.borderStyle = UITextBorderStyleLine;
+	self.textField.userInteractionEnabled = YES;
+	[self.textField becomeFirstResponder];
 }
 - (IBAction)cancel:(id)sender {
 	[self.textField resignFirstResponder];
@@ -25,6 +27,7 @@
 
 - (void)textFieldDidEndEditing:(UITextField *)textField {
 	textField.borderStyle = UITextBorderStyleRoundedRect;
+	textField.userInteractionEnabled = NO;
 }
 
 @end
